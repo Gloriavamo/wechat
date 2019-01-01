@@ -1,0 +1,15 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:marked:20140131-1':
+    - gitbook-plugin-toc2 > marked-toc > marked:
+        patched: '2019-01-01T15:46:38.987Z'
+  'npm:minimatch:20160620':
+    - gitbook-plugin-toc2 > marked-toc > fs-utils > globby > glob > minimatch:
+        patched: '2019-01-01T15:46:38.987Z'
+    - gitbook-plugin-toc2 > marked-toc > template > fs-utils > globule > glob > minimatch:
+        patched: '2019-01-01T15:46:38.987Z'
+    - gitbook-plugin-toc2 > marked-toc > template > fs-utils > globule > minimatch:
+        patched: '2019-01-01T15:46:38.987Z'
